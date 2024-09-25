@@ -1,0 +1,126 @@
+* {
+  background-color: #250b3d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+h1,
+h2 {
+  color: #5a3082;
+}
+
+.main {
+  background-color: #ddc3f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+p {
+  background-color: #ddc3f6;
+}
+.align {
+  flex: 0 0 auto;
+}
+h2 {
+  margin-bottom: 0;
+  font-size: 20px;
+  background-color: #ddc3f6;
+}
+strong {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ddc3f6;
+}
+h1 {
+  text-align: center;
+  background-color: #ddc3f6;
+}
+.post-main {
+  background-color: #ddc3f6;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  gap: 10px;
+}
+.options {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #ddc3f6;
+}
+li {
+  background-color: #5a3082;
+  color: #ddc3f6;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddc3f6;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+button:hover {
+  background-color: white;
+  color: #0a0310;
+}
+.vin {
+  background-color: #5a3082;
+  color: #ddc3f6;
+  padding: 0 30px;
+}
+.b1 {
+  background-color: #0a0310;
+  color: #ddc3f6;
+}
+.b2 {
+  background-color: #0a0310;
+  color: #ddc3f6;
+}
+.align {
+  background-color: #ddc3f6;
+}
+.box {
+  display: flex;
+  align-items: center;
+  background-color: #ddc3f6;
+  padding: 0px 10px;
+  font-size: larger;
+  justify-content: space-between;
+}
+article p {
+  text-align: center;
+}
+.field {
+  height: 250px;
+  margin-left: 10px;
+  border: solid;
+  border-radius: 5px;
+  padding-top: 10px;
+  border: none;
+  background-color: #ddc3f6;
+  flex: 1 0 auto;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.field .heading {
+  margin-bottom: 20px;
+}
+article :last-child {
+  margin-right: 10px;
+}
